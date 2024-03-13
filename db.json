@@ -1,16 +1,60 @@
 {
-    "toys": [
+    "posts": [
       {
         "id": 1,
-        "name": "Woody",
-        "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-        "likes": 8
+        "user": "alexa21",
+        "image": "https://ciaobambino.com/wp-content/uploads/2015/02/caribbean-vacation-budget-tips.jpg",
+        "likes": 967,
+        "caption": "this view is unbeatable, can i extend my vacay?",
+        "tags": ["vacation", "relaxing", "beach"]
       },
       {
         "id": 2,
-        "name": "Buzz Lightyear",
-        "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-        "likes": 14
+        "user": "Texas Streethouse",
+        "image": "https://a.cdn-hotels.com/gdcs/production0/d1513/35c1c89e-408c-4449-9abe-f109068f40c0.jpg?impolicy=fcrop&w=800&h=533&q=medium",
+        "likes": 30049,
+        "caption": "Give a warm welcome to our new double-stacked classic-style burger! Available for a limited time.",
+        "tags": ["food", "burger", "delicious", "ad"]
+      },
+      {
+        "id": 3,
+        "user": "xPogo",
+        "image": "https://blackstoneam.com/wp-content/uploads/2022/07/vacation_instagram_captions_puns_quotes-12.jpg",
+        "likes": 1002,
+        "caption": "who lives in a pineapple under the sea?!",
+        "tags": ["spongebob", "vacation", "beach"]
+      },
+      {
+        "id": 4,
+        "user": "jeneveveve",
+        "image": "https://coresight.com/wp-content/uploads/2023/05/Coresight-Research-Mall-640.webp",
+        "likes": 20,
+        "caption": "Me at the mall",
+        "tags": ["shopping", "selfie"]
+      },
+      {
+        "id": 5,
+        "user": "flowersanddemons",
+        "image": "https://www.killyourdarlings.com.au/wp-content/uploads/2020/07/horse-1.jpg",
+        "likes": 1,
+        "caption": "it's a little cursed...",
+        "tags": ["art", "horse", "drawings"] 
+      },
+      {
+        "id": 6,
+        "user": "123maxine9102",
+        "image": "https://dallasarboretum.imgix.net/wp-content/uploads/2024/02/05124941/AdobeStock_202526503.jpeg?fit=crop&crop=focalpoint&fp-x=.9&fp-y=.9&fp-z=1&q=60&auto=format&w=960&h=536",
+        "likes": 902,
+        "caption": "I love when spring comes",
+        "tags": ["flowers", "beautiful", "spring"] 
+      },
+      {
+        "id": 7,
+        "user": "baconator111",
+        "image": "https://www.fluentu.com/blog/english/wp-content/uploads/sites/4/2023/06/asian-woman-on-a-kayak-on-a-beautiful-island-in-summer.jpg",
+        "likes": 19238,
+        "caption": "me and the sea <3",
+        "tags": ["beach", "vacation", "selfie", "kayaking"]
       }
     ]
   }

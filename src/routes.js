@@ -4,17 +4,17 @@ import Profile from './components/Profile';
 
 const routes = [
     {
-        path: '/',
+        path: "/",
         element: <App />,
         children: [
             {
-                path: '/',
+                path: "/",
                 element: <Home />
             },
             {
-                path: '/profile',
+                path: "/profile",
                 element: <Profile />
-            }
+            },
         ]
     }
 ]
