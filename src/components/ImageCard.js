@@ -18,8 +18,7 @@ function ImageCard({ post }) {
             <img src={post.image} alt=""/>
             <div className="card-content">
                 <h2>{post.user}</h2>
-                <p>{post.caption}</p>
-                <p>{post.tags.map(tag => `#${tag}`)}</p>
+                <p>{post.caption} {post.tags.map(tag => `#${tag}`)}</p>
                 <p>{post.likes} likes</p>
                 <i className="icon-heart-empty" onClick={handleClick}>{isLiked ? '♥' : '♡' }</i> 
             </div>

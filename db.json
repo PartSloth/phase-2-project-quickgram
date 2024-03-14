@@ -34,6 +34,14 @@
       },
       {
         "id": 5,
+        "user": "lilijones21",
+        "image": "https://img.freepik.com/free-photo/front-view-interior-room-design-concept_23-2148786397.jpg?t=st=1710436969~exp=1710440569~hmac=6ee4bbb44eecc7e39420b023d4e7a843bd8cdd6ee94801c4994716a35fcc595d&w=996",
+        "likes": 215,
+        "caption": "Living can be so simple!",
+        "tags": ["aesthetic", "couch", "apartment", "interiordesign"]
+      },
+      {
+        "id": 6,
         "user": "flowersanddemons",
         "image": "https://www.killyourdarlings.com.au/wp-content/uploads/2020/07/horse-1.jpg",
         "likes": 1,
@@ -41,7 +49,7 @@
         "tags": ["art", "horse", "drawings"] 
       },
       {
-        "id": 6,
+        "id": 7,
         "user": "123maxine9102",
         "image": "https://dallasarboretum.imgix.net/wp-content/uploads/2024/02/05124941/AdobeStock_202526503.jpeg?fit=crop&crop=focalpoint&fp-x=.9&fp-y=.9&fp-z=1&q=60&auto=format&w=960&h=536",
         "likes": 902,
@@ -49,12 +57,28 @@
         "tags": ["flowers", "beautiful", "spring"] 
       },
       {
-        "id": 7,
+        "id": 8,
         "user": "baconator111",
         "image": "https://www.fluentu.com/blog/english/wp-content/uploads/sites/4/2023/06/asian-woman-on-a-kayak-on-a-beautiful-island-in-summer.jpg",
         "likes": 19238,
         "caption": "me and the sea <3",
         "tags": ["beach", "vacation", "selfie", "kayaking"]
+      },
+      {
+        "id": 9,
+        "user": "flowersanddemons",
+        "image": "https://img.freepik.com/free-photo/meatballs-with-vegetables-tomato-sauce_1220-7420.jpg?t=st=1710437224~exp=1710440824~hmac=1b5f5101610005e63ab9975c327195bcad762d7146120b5c10d18041e881c074&w=1380",
+        "likes": 191,
+        "caption": "eat to make your heart happy xoxo",
+        "tags": ["food", "delicious", "meatballs"]
+      },
+      {
+        "id": 10,
+        "user": "lilijones21",
+        "image": "https://img.freepik.com/free-photo/close-up-people-traveling-together_23-2149272140.jpg?t=st=1710437082~exp=1710440682~hmac=b7fcf81c87cd4f820b816e273e3d81abd68977efb08597e426d3901252de3219&w=1380",
+        "likes": 90,
+        "caption": "goodbye colorado, see you in 3 weeks",
+        "tags": ["vacation", "selfie", "airport"]
       }
     ]
   }
