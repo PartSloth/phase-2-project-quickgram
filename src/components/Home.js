@@ -1,15 +1,9 @@
-import { useEffect, useState } from "react";
+import { useOutletContext } from "react-router-dom";
 import ImageCard from "./ImageCard";
 import "./imagecard.css";
 
 function Home() {
-    const [posts, setPosts] = useState([]);
-
-    useEffect(() => {
-        fetch("http://localhost:3000/posts")
-        .then(res => res.json())
-        .then(posts => setPosts(posts))
-    }, []);
+    const posts = useOutletContext();
 
     return(
         <div>
