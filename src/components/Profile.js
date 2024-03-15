@@ -1,9 +1,22 @@
 import { useOutletContext } from "react-router-dom";
 import ImageCard from "./ImageCard";
+import { useEffect } from "react";
 
 function Profile() {
     const posts = useOutletContext();
     const profilePosts = posts.filter(post => post.user === "lilijones21")
+
+    useEffect(() => {
+        handleCloseForm();
+    }, [])
+
+    function handleOpenForm() {
+        document.getElementById("postForm").style.display = "block";
+    }
+
+    function handleCloseForm() {
+        document.getElementById("postForm").style.display = "none";
+    }
 
     return(
         <div>
@@ -12,6 +25,21 @@ function Profile() {
             <h3>Lisa Jones</h3>
             <p>traveler and foodie | food review youtuber | dog walker</p>
             <h2>Posts</h2>
+            <button className="open-button" onClick={handleOpenForm}>New Post</button>
+
+            <div className="form-popup" id="postForm">
+                <form className="form-container">
+                    <label for="image">Upload Image </label>
+                    <input type="text" placeholder="Image Link" name="image" required/>
+
+                    <label for="caption">Edit Caption </label>
+                    <input type="text" placeholder="Caption Description" name="caption" maxlength="300" required/>
+
+                    <button type="submit" className="btn">Upload</button>
+                    <button type="button" className="btn cancel" onClick={handleCloseForm}>Cancel</button>
+                </form>
+            </div>
+            
             <div className="card-container">
                 {profilePosts.map(post => <ImageCard key={post.id} post={post}/>)}
             </div>
