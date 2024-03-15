@@ -1,11 +1,17 @@
 import { useOutletContext } from "react-router-dom";
 import ImageCard from "./ImageCard";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 function Profile() {
-    const posts = useOutletContext();
+    const [posts, setPosts] = useOutletContext();
     const profilePosts = posts.filter(post => post.user === "lilijones21")
+    const [formData, setFormData] = useState({
+        image: null,
+        caption: null,
+        tags: null,
+    })
 
+    //pop-up form
     useEffect(() => {
         handleCloseForm();
     }, [])
@@ -18,6 +24,36 @@ function Profile() {
         document.getElementById("postForm").style.display = "none";
     }
 
+    //form data
+    function handleFormInput(event) {
+        const field = event.target.name;
+        let input = event.target.value;
+        if(field === "tags") {
+            input = input.split(' ');
+        }
+        setFormData({...formData, [field]: input})
+    }
+
+    function handleUploadSubmit(event) {
+        event.preventDefault();
+        fetch('http://localhost:3000/posts', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                id: posts.length + 1,
+                user: "lilijones21",
+                image: formData.image,
+                likes: 0,
+                caption: formData.caption,
+                tags: formData.tags
+            })
+        })
+        .then(res => res.json())
+        .then(upload => setPosts([...posts, upload]))
+    }
+
     return(
         <div>
             <h1>lilijones21</h1>
@@ -27,13 +63,16 @@ function Profile() {
             <h2>Posts</h2>
             <button className="open-button" onClick={handleOpenForm}>New Post</button>
 
-            <div className="form-popup" id="postForm">
+            <div className="form-popup" id="postForm" onSubmit={handleUploadSubmit}>
                 <form className="form-container">
-                    <label for="image">Upload Image </label>
-                    <input type="text" placeholder="Image Link" name="image" required/>
+                    <label htmlFor="image">Upload Image </label>
+                    <input type="text" placeholder="Image Link" name="image" onChange={handleFormInput} required/>
 
-                    <label for="caption">Edit Caption </label>
-                    <input type="text" placeholder="Caption Description" name="caption" maxlength="300" required/>
+                    <label htmlFor="caption">Edit Caption </label>
+                    <input type="text" placeholder="Caption Description" name="caption" maxLength="300" onChange={handleFormInput} required/>
+
+                    <label htmlFor="tags">Tags </label>
+                    <input type="text" placeholder="Separate by spaces" name="tags" maxLength="100" onChange={handleFormInput} required/>
 
                     <button type="submit" className="btn">Upload</button>
                     <button type="button" className="btn cancel" onClick={handleCloseForm}>Cancel</button>

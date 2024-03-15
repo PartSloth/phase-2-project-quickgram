@@ -4,7 +4,7 @@ import ImageCard from "./ImageCard";
 import "./imagecard.css";
 
 function Home() {
-    const posts = useOutletContext();
+    const [posts] = useOutletContext();
     const [postsDisplayed, setPostsDisplayed] = useState([])
     const shuffle = posts.sort(() => 0.5 - Math.random()).slice(0,20)
 

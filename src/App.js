@@ -16,7 +16,7 @@ function App() {
       <header>
         <NavBar />
       </header>
-      <Outlet context={posts}/>
+      <Outlet context={[posts, setPosts]}/>
     </>
   );
 }

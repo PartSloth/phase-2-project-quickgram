@@ -1,244 +1,371 @@
 {
-    "posts": [
-      {
-        "id": 1,
-        "user": "alexa21",
-        "image": "https://ciaobambino.com/wp-content/uploads/2015/02/caribbean-vacation-budget-tips.jpg",
-        "likes": 967,
-        "caption": "this view is unbeatable, can i extend my vacay?",
-        "tags": ["vacation", "relaxing", "beach"]
-      },
-      {
-        "id": 2,
-        "user": "Texas Streethouse",
-        "image": "https://a.cdn-hotels.com/gdcs/production0/d1513/35c1c89e-408c-4449-9abe-f109068f40c0.jpg?impolicy=fcrop&w=800&h=533&q=medium",
-        "likes": 30049,
-        "caption": "Give a warm welcome to our new double-stacked classic-style burger! Available for a limited time.",
-        "tags": ["food", "burger", "delicious", "ad"]
-      },
-      {
-        "id": 3,
-        "user": "xPogo",
-        "image": "https://blackstoneam.com/wp-content/uploads/2022/07/vacation_instagram_captions_puns_quotes-12.jpg",
-        "likes": 1002,
-        "caption": "who lives in a pineapple under the sea?!",
-        "tags": ["spongebob", "vacation", "beach"]
-      },
-      {
-        "id": 4,
-        "user": "jeneveveve",
-        "image": "https://coresight.com/wp-content/uploads/2023/05/Coresight-Research-Mall-640.webp",
-        "likes": 20,
-        "caption": "Me at the mall",
-        "tags": ["shopping", "selfie"]
-      },
-      {
-        "id": 5,
-        "user": "lilijones21",
-        "image": "https://img.freepik.com/free-photo/front-view-interior-room-design-concept_23-2148786397.jpg?t=st=1710436969~exp=1710440569~hmac=6ee4bbb44eecc7e39420b023d4e7a843bd8cdd6ee94801c4994716a35fcc595d&w=996",
-        "likes": 215,
-        "caption": "Living can be so simple!",
-        "tags": ["aesthetic", "couch", "apartment", "interiordesign"]
-      },
-      {
-        "id": 6,
-        "user": "flowersanddemons",
-        "image": "https://www.killyourdarlings.com.au/wp-content/uploads/2020/07/horse-1.jpg",
-        "likes": 1,
-        "caption": "it's a little cursed...",
-        "tags": ["art", "horse", "drawings"] 
-      },
-      {
-        "id": 7,
-        "user": "123maxine9102",
-        "image": "https://dallasarboretum.imgix.net/wp-content/uploads/2024/02/05124941/AdobeStock_202526503.jpeg?fit=crop&crop=focalpoint&fp-x=.9&fp-y=.9&fp-z=1&q=60&auto=format&w=960&h=536",
-        "likes": 902,
-        "caption": "I love when spring comes",
-        "tags": ["flowers", "beautiful", "spring"] 
-      },
-      {
-        "id": 8,
-        "user": "baconator111",
-        "image": "https://www.fluentu.com/blog/english/wp-content/uploads/sites/4/2023/06/asian-woman-on-a-kayak-on-a-beautiful-island-in-summer.jpg",
-        "likes": 19238,
-        "caption": "me and the sea <3",
-        "tags": ["beach", "vacation", "selfie", "kayaking"]
-      },
-      {
-        "id": 9,
-        "user": "flowersanddemons",
-        "image": "https://img.freepik.com/free-photo/meatballs-with-vegetables-tomato-sauce_1220-7420.jpg?t=st=1710437224~exp=1710440824~hmac=1b5f5101610005e63ab9975c327195bcad762d7146120b5c10d18041e881c074&w=1380",
-        "likes": 191,
-        "caption": "eat to make your heart happy xoxo",
-        "tags": ["food", "delicious", "meatballs"]
-      },
-      {
-        "id": 10,
-        "user": "lilijones21",
-        "image": "https://img.freepik.com/free-photo/close-up-people-traveling-together_23-2149272140.jpg?t=st=1710437082~exp=1710440682~hmac=b7fcf81c87cd4f820b816e273e3d81abd68977efb08597e426d3901252de3219&w=1380",
-        "likes": 90,
-        "caption": "goodbye colorado, see you in 3 weeks",
-        "tags": ["vacation", "selfie", "airport"]
-      },
-      {
-        "id": 11,
-        "user": "appliepie",
-        "image": "https://img.freepik.com/free-photo/close-up-cute-cat-indoors_23-2148882585.jpg?t=st=1710446611~exp=1710450211~hmac=a56dcc78fa3b0027fb305aa65680ffe843fca50a08a004baafacdb3826f09ef2&w=740",
-        "likes": 809542,
-        "caption": "He's so fancy!~",
-        "tags": ["cat", "animals", "cute"]
-      },
-      {
-        "id": 12,
-        "user": "0betty_may0",
-        "image": "https://img.freepik.com/free-photo/close-up-kitten-indoors_23-2150782301.jpg?t=st=1710446773~exp=1710450373~hmac=1a89e0eab62a6d03ed81edd5c661c2115b3008b3e10a7aa20e777a43713425f0&w=1380",
-        "likes": 91934,
-        "caption": "My new fur baby! Say 'hi' to Cheeto! <3",
-        "tags": ["cat", "animals", "cute", "baby", "kitten"]
-      },
-      {
-        "id": 13,
-        "user": "flora&fauna",
-        "image": "https://img.freepik.com/free-photo/colorful-beautiful-flowers-background-blossom-floral-bouquet-decoration-garden-flowers-plant-vertical-pattern-wallpapers-greeting-cards-postcards-design-wedding-invites_90220-1097.jpg?t=st=1710446948~exp=1710450548~hmac=773e86359208b4356ea62a738f354d6cba060e7e15ad37dbdf7392da0a1e7ebc&w=740",
-        "likes": 653,
-        "caption": "30 hours of work later...like the post to support a 'budding' artist",
-        "tags": ["art", "flowers", "beautiful", "digital"]
-      },
-      {
-        "id": 14,
-        "user": "baby_artist21",
-        "image": "https://img.freepik.com/free-photo/girl-with-backpack-sunset-generative-al_169016-28612.jpg?t=st=1710447105~exp=1710450705~hmac=45a9966393482e01d9b8733eb1c2b7524ac870328087b3adb598bf4331212416&w=826",
-        "likes": 1923,
-        "caption": "another one for my portfolio, starting art college in 3 months. wish me luck o7",
-        "tags": ["art", "beautiful", "sunset"]
-      },
-      {
-        "id": 15,
-        "user": "FARMISLIFE",
-        "image": "https://img.freepik.com/free-photo/tractor-farm-field-sunset-backlight-warm-tones_463209-116.jpg?t=st=1710447211~exp=1710450811~hmac=04b88c8ed060d5ff9bfd0ea0f4f55c58d6abeaa5b16e5c9975e8816bc182af16&w=996",
-        "likes": 231,
-        "caption": "Grandpa Mills has been working since sunrise, wow.",
-        "tags": ["farm", "sunrise", "aesthetic"]
-      },
-      {
-        "id": 16,
-        "user": "FARMISLIFE",
-        "image": "https://img.freepik.com/free-photo/full-shot-girl-farm_23-2148990389.jpg?t=st=1710447321~exp=1710450921~hmac=5e623505afcfbec9fbec1c61176930b4c8258371f73602af5742797d29736839&w=740",
-        "likes": 2189,
-        "caption": "my baby girl learning how to feed the animals",
-        "tags": ["farm", "selfie", "outdoors"]
-      },
-      {
-        "id": 17,
-        "user": "AGGIE4L1F3",
-        "image": "https://img.freepik.com/free-photo/young-man-writing-notebook-study-session_23-2149285403.jpg?t=st=1710447397~exp=1710450997~hmac=7a8b0710bcf54a7d9e32fe7d65d50872e4467e2e998ac5ae0e33cf43895a2c1b&w=996",
-        "likes": 1321,
-        "caption": "Just me and my STUDY PARDNER",
-        "tags": ["study", "college"]
-      },
-      {
-        "id": 18,
-        "user": "backstr33tBOYZ",
-        "image": "https://img.freepik.com/free-photo/group-diverse-grads-throwing-caps-up-sky_53876-56031.jpg?t=st=1710447480~exp=1710451080~hmac=5dcf36f35ad425dc741ccb32d825037a503c9e6b90ef90474013bf4000cb4aab&w=996",
-        "likes": 391,
-        "caption": "I JUST GRADUATED CLASS OF '23",
-        "tags": ["graduation", "celebrating", "college"]
-      },
-      {
-        "id": 19,
-        "user": "ShellStudio",
-        "image": "https://img.freepik.com/free-vector/game-template-nature-scene_1308-82150.jpg?t=st=1710447558~exp=1710451158~hmac=d8f14603ea7817691ced20dda212aa7170c34ec169b4dd89180c698f9c51c12b&w=996",
-        "likes": 12,
-        "caption": "working on a new platformer",
-        "tags": ["gaming", "art", "platformer"]
-      },
-      {
-        "id": 20,
-        "user": "xPogo",
-        "image": "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "likes": 928184891,
-        "caption": "dog",
-        "tags": ["dog", "animals", "cute"]
-      },
-      {
-        "id": 21,
-        "user": "xPogo",
-        "image": "https://images.pexels.com/photos/1906153/pexels-photo-1906153.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "likes": 123241,
-        "caption": "we've been training for the dog olympics in 2 months, cheer us on!",
-        "tags": ["dog", "training", "cute", "animals"]
-      },
-      {
-        "id": 22,
-        "user": "alexa21",
-        "image": "https://images.pexels.com/photos/1721932/pexels-photo-1721932.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "likes": 9283,
-        "caption": "@ a french patisserie and it smells like heaven",
-        "tags": ["cake", "france", "food"]
-      },
-      {
-        "id": 23,
-        "user": "xPogo",
-        "image": "https://images.pexels.com/photos/920220/pexels-photo-920220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "likes": 233134,
-        "caption": "made this of my doggy, Toaster",
-        "tags": ["food", "bread", "dog"]
-      },
-      {
-        "id": 24,
-        "user": "pettycure",
-        "image": "https://images.pexels.com/photos/704815/pexels-photo-704815.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "likes": 9284785,
-        "caption": "green for march times",
-        "tags": ["nails", "aesthetic", "art", "beautiful"]
-      },
-      {
-        "id": 25,
-        "user": "pettycure",
-        "image": "https://images.pexels.com/photos/1164339/pexels-photo-1164339.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "likes": 8381,
-        "caption": "did my girlfriends' nails for a girls' night outtt",
-        "tags": ["nails", "aesthetic", "art", "beautiful"]
-      },
-      {
-        "id": 26,
-        "user": "mAnwithAcAm",
-        "image": "https://images.pexels.com/photos/1262302/pexels-photo-1262302.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "likes": 2885,
-        "caption": "am I aesthetic or what?!",
-        "tags": ["icecream", "aesthetic", "art", "clouds"]
-      },
-      {
-        "id": 27,
-        "user": "AGGIE4L1F3",
-        "image": "https://images.pexels.com/photos/11405382/pexels-photo-11405382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "likes": 672,
-        "caption": "yeah, we made a cheese board. yeah, we're those people",
-        "tags": ["food", "aesthetic", "yummy", "college"]
-      },
-      {
-        "id": 28,
-        "user": "cheesy__QUEEN",
-        "image": "https://images.pexels.com/photos/6004202/pexels-photo-6004202.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "likes": 60002,
-        "caption": "i don't post often but when i do? you know it's gonna be good",
-        "tags": ["aesthetic", "food", "cheese"]
-      },
-      {
-        "id": 29,
-        "user": "backstr33tBOYZ",
-        "image": "https://images.pexels.com/photos/1439951/pexels-photo-1439951.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "likes": 22,
-        "caption": "wish we could go back to '17",
-        "tags": ["skaters", "theboys"]
-      },
-      {
-        "id": 30,
-        "user": "AGGIE4L1F3",
-        "image": "https://images.pexels.com/photos/8602444/pexels-photo-8602444.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "likes": 82821,
-        "caption": "miss my best friend",
-        "tags": ["selfie", "missyou"]
-      }
-    ]
-  }
+  "posts": [
+    {
+      "id": 1,
+      "user": "alexa21",
+      "image": "https://ciaobambino.com/wp-content/uploads/2015/02/caribbean-vacation-budget-tips.jpg",
+      "likes": 967,
+      "caption": "this view is unbeatable, can i extend my vacay?",
+      "tags": [
+        "vacation",
+        "relaxing",
+        "beach"
+      ]
+    },
+    {
+      "id": 2,
+      "user": "Texas Streethouse",
+      "image": "https://a.cdn-hotels.com/gdcs/production0/d1513/35c1c89e-408c-4449-9abe-f109068f40c0.jpg?impolicy=fcrop&w=800&h=533&q=medium",
+      "likes": 30049,
+      "caption": "Give a warm welcome to our new double-stacked classic-style burger! Available for a limited time.",
+      "tags": [
+        "food",
+        "burger",
+        "delicious",
+        "ad"
+      ]
+    },
+    {
+      "id": 3,
+      "user": "xPogo",
+      "image": "https://blackstoneam.com/wp-content/uploads/2022/07/vacation_instagram_captions_puns_quotes-12.jpg",
+      "likes": 1002,
+      "caption": "who lives in a pineapple under the sea?!",
+      "tags": [
+        "spongebob",
+        "vacation",
+        "beach"
+      ]
+    },
+    {
+      "id": 4,
+      "user": "jeneveveve",
+      "image": "https://coresight.com/wp-content/uploads/2023/05/Coresight-Research-Mall-640.webp",
+      "likes": 20,
+      "caption": "Me at the mall",
+      "tags": [
+        "shopping",
+        "selfie"
+      ]
+    },
+    {
+      "id": 5,
+      "user": "lilijones21",
+      "image": "https://img.freepik.com/free-photo/front-view-interior-room-design-concept_23-2148786397.jpg?t=st=1710436969~exp=1710440569~hmac=6ee4bbb44eecc7e39420b023d4e7a843bd8cdd6ee94801c4994716a35fcc595d&w=996",
+      "likes": 215,
+      "caption": "Living can be so simple!",
+      "tags": [
+        "aesthetic",
+        "couch",
+        "apartment",
+        "interiordesign"
+      ]
+    },
+    {
+      "id": 6,
+      "user": "flowersanddemons",
+      "image": "https://www.killyourdarlings.com.au/wp-content/uploads/2020/07/horse-1.jpg",
+      "likes": 1,
+      "caption": "it's a little cursed...",
+      "tags": [
+        "art",
+        "horse",
+        "drawings"
+      ]
+    },
+    {
+      "id": 7,
+      "user": "123maxine9102",
+      "image": "https://dallasarboretum.imgix.net/wp-content/uploads/2024/02/05124941/AdobeStock_202526503.jpeg?fit=crop&crop=focalpoint&fp-x=.9&fp-y=.9&fp-z=1&q=60&auto=format&w=960&h=536",
+      "likes": 902,
+      "caption": "I love when spring comes",
+      "tags": [
+        "flowers",
+        "beautiful",
+        "spring"
+      ]
+    },
+    {
+      "id": 8,
+      "user": "baconator111",
+      "image": "https://www.fluentu.com/blog/english/wp-content/uploads/sites/4/2023/06/asian-woman-on-a-kayak-on-a-beautiful-island-in-summer.jpg",
+      "likes": 19238,
+      "caption": "me and the sea <3",
+      "tags": [
+        "beach",
+        "vacation",
+        "selfie",
+        "kayaking"
+      ]
+    },
+    {
+      "id": 9,
+      "user": "flowersanddemons",
+      "image": "https://img.freepik.com/free-photo/meatballs-with-vegetables-tomato-sauce_1220-7420.jpg?t=st=1710437224~exp=1710440824~hmac=1b5f5101610005e63ab9975c327195bcad762d7146120b5c10d18041e881c074&w=1380",
+      "likes": 191,
+      "caption": "eat to make your heart happy xoxo",
+      "tags": [
+        "food",
+        "delicious",
+        "meatballs"
+      ]
+    },
+    {
+      "id": 10,
+      "user": "lilijones21",
+      "image": "https://img.freepik.com/free-photo/close-up-people-traveling-together_23-2149272140.jpg?t=st=1710437082~exp=1710440682~hmac=b7fcf81c87cd4f820b816e273e3d81abd68977efb08597e426d3901252de3219&w=1380",
+      "likes": 90,
+      "caption": "goodbye colorado, see you in 3 weeks",
+      "tags": [
+        "vacation",
+        "selfie",
+        "airport"
+      ]
+    },
+    {
+      "id": 11,
+      "user": "appliepie",
+      "image": "https://img.freepik.com/free-photo/close-up-cute-cat-indoors_23-2148882585.jpg?t=st=1710446611~exp=1710450211~hmac=a56dcc78fa3b0027fb305aa65680ffe843fca50a08a004baafacdb3826f09ef2&w=740",
+      "likes": 809542,
+      "caption": "He's so fancy!~",
+      "tags": [
+        "cat",
+        "animals",
+        "cute"
+      ]
+    },
+    {
+      "id": 12,
+      "user": "0betty_may0",
+      "image": "https://img.freepik.com/free-photo/close-up-kitten-indoors_23-2150782301.jpg?t=st=1710446773~exp=1710450373~hmac=1a89e0eab62a6d03ed81edd5c661c2115b3008b3e10a7aa20e777a43713425f0&w=1380",
+      "likes": 91934,
+      "caption": "My new fur baby! Say 'hi' to Cheeto! <3",
+      "tags": [
+        "cat",
+        "animals",
+        "cute",
+        "baby",
+        "kitten"
+      ]
+    },
+    {
+      "id": 13,
+      "user": "flora&fauna",
+      "image": "https://img.freepik.com/free-photo/colorful-beautiful-flowers-background-blossom-floral-bouquet-decoration-garden-flowers-plant-vertical-pattern-wallpapers-greeting-cards-postcards-design-wedding-invites_90220-1097.jpg?t=st=1710446948~exp=1710450548~hmac=773e86359208b4356ea62a738f354d6cba060e7e15ad37dbdf7392da0a1e7ebc&w=740",
+      "likes": 653,
+      "caption": "30 hours of work later...like the post to support a 'budding' artist",
+      "tags": [
+        "art",
+        "flowers",
+        "beautiful",
+        "digital"
+      ]
+    },
+    {
+      "id": 14,
+      "user": "baby_artist21",
+      "image": "https://img.freepik.com/free-photo/girl-with-backpack-sunset-generative-al_169016-28612.jpg?t=st=1710447105~exp=1710450705~hmac=45a9966393482e01d9b8733eb1c2b7524ac870328087b3adb598bf4331212416&w=826",
+      "likes": 1923,
+      "caption": "another one for my portfolio, starting art college in 3 months. wish me luck o7",
+      "tags": [
+        "art",
+        "beautiful",
+        "sunset"
+      ]
+    },
+    {
+      "id": 15,
+      "user": "FARMISLIFE",
+      "image": "https://img.freepik.com/free-photo/tractor-farm-field-sunset-backlight-warm-tones_463209-116.jpg?t=st=1710447211~exp=1710450811~hmac=04b88c8ed060d5ff9bfd0ea0f4f55c58d6abeaa5b16e5c9975e8816bc182af16&w=996",
+      "likes": 231,
+      "caption": "Grandpa Mills has been working since sunrise, wow.",
+      "tags": [
+        "farm",
+        "sunrise",
+        "aesthetic"
+      ]
+    },
+    {
+      "id": 16,
+      "user": "FARMISLIFE",
+      "image": "https://img.freepik.com/free-photo/full-shot-girl-farm_23-2148990389.jpg?t=st=1710447321~exp=1710450921~hmac=5e623505afcfbec9fbec1c61176930b4c8258371f73602af5742797d29736839&w=740",
+      "likes": 2189,
+      "caption": "my baby girl learning how to feed the animals",
+      "tags": [
+        "farm",
+        "selfie",
+        "outdoors"
+      ]
+    },
+    {
+      "id": 17,
+      "user": "AGGIE4L1F3",
+      "image": "https://img.freepik.com/free-photo/young-man-writing-notebook-study-session_23-2149285403.jpg?t=st=1710447397~exp=1710450997~hmac=7a8b0710bcf54a7d9e32fe7d65d50872e4467e2e998ac5ae0e33cf43895a2c1b&w=996",
+      "likes": 1321,
+      "caption": "Just me and my STUDY PARDNER",
+      "tags": [
+        "study",
+        "college"
+      ]
+    },
+    {
+      "id": 18,
+      "user": "backstr33tBOYZ",
+      "image": "https://img.freepik.com/free-photo/group-diverse-grads-throwing-caps-up-sky_53876-56031.jpg?t=st=1710447480~exp=1710451080~hmac=5dcf36f35ad425dc741ccb32d825037a503c9e6b90ef90474013bf4000cb4aab&w=996",
+      "likes": 391,
+      "caption": "I JUST GRADUATED CLASS OF '23",
+      "tags": [
+        "graduation",
+        "celebrating",
+        "college"
+      ]
+    },
+    {
+      "id": 19,
+      "user": "ShellStudio",
+      "image": "https://img.freepik.com/free-vector/game-template-nature-scene_1308-82150.jpg?t=st=1710447558~exp=1710451158~hmac=d8f14603ea7817691ced20dda212aa7170c34ec169b4dd89180c698f9c51c12b&w=996",
+      "likes": 12,
+      "caption": "working on a new platformer",
+      "tags": [
+        "gaming",
+        "art",
+        "platformer"
+      ]
+    },
+    {
+      "id": 20,
+      "user": "xPogo",
+      "image": "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "likes": 928184891,
+      "caption": "dog",
+      "tags": [
+        "dog",
+        "animals",
+        "cute"
+      ]
+    },
+    {
+      "id": 21,
+      "user": "xPogo",
+      "image": "https://images.pexels.com/photos/1906153/pexels-photo-1906153.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "likes": 123241,
+      "caption": "we've been training for the dog olympics in 2 months, cheer us on!",
+      "tags": [
+        "dog",
+        "training",
+        "cute",
+        "animals"
+      ]
+    },
+    {
+      "id": 22,
+      "user": "alexa21",
+      "image": "https://images.pexels.com/photos/1721932/pexels-photo-1721932.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "likes": 9283,
+      "caption": "@ a french patisserie and it smells like heaven",
+      "tags": [
+        "cake",
+        "france",
+        "food"
+      ]
+    },
+    {
+      "id": 23,
+      "user": "xPogo",
+      "image": "https://images.pexels.com/photos/920220/pexels-photo-920220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "likes": 233134,
+      "caption": "made this of my doggy, Toaster",
+      "tags": [
+        "food",
+        "bread",
+        "dog"
+      ]
+    },
+    {
+      "id": 24,
+      "user": "pettycure",
+      "image": "https://images.pexels.com/photos/704815/pexels-photo-704815.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "likes": 9284785,
+      "caption": "green for march times",
+      "tags": [
+        "nails",
+        "aesthetic",
+        "art",
+        "beautiful"
+      ]
+    },
+    {
+      "id": 25,
+      "user": "pettycure",
+      "image": "https://images.pexels.com/photos/1164339/pexels-photo-1164339.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "likes": 8381,
+      "caption": "did my girlfriends' nails for a girls' night outtt",
+      "tags": [
+        "nails",
+        "aesthetic",
+        "art",
+        "beautiful"
+      ]
+    },
+    {
+      "id": 26,
+      "user": "mAnwithAcAm",
+      "image": "https://images.pexels.com/photos/1262302/pexels-photo-1262302.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "likes": 2885,
+      "caption": "am I aesthetic or what?!",
+      "tags": [
+        "icecream",
+        "aesthetic",
+        "art",
+        "clouds"
+      ]
+    },
+    {
+      "id": 27,
+      "user": "AGGIE4L1F3",
+      "image": "https://images.pexels.com/photos/11405382/pexels-photo-11405382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "likes": 672,
+      "caption": "yeah, we made a cheese board. yeah, we're those people",
+      "tags": [
+        "food",
+        "aesthetic",
+        "yummy",
+        "college"
+      ]
+    },
+    {
+      "id": 28,
+      "user": "cheesy__QUEEN",
+      "image": "https://images.pexels.com/photos/6004202/pexels-photo-6004202.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "likes": 60002,
+      "caption": "i don't post often but when i do? you know it's gonna be good",
+      "tags": [
+        "aesthetic",
+        "food",
+        "cheese"
+      ]
+    },
+    {
+      "id": 29,
+      "user": "backstr33tBOYZ",
+      "image": "https://images.pexels.com/photos/1439951/pexels-photo-1439951.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "likes": 22,
+      "caption": "wish we could go back to '17",
+      "tags": [
+        "skaters",
+        "theboys"
+      ]
+    },
+    {
+      "id": 30,
+      "user": "AGGIE4L1F3",
+      "image": "https://images.pexels.com/photos/8602444/pexels-photo-8602444.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "likes": 82821,
+      "caption": "miss my best friend",
+      "tags": [
+        "selfie",
+        "missyou"
+      ]
+    }
+  ]
+}
