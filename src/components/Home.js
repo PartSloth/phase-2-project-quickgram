@@ -20,7 +20,7 @@ function Home() {
         <div>
             <h1>Home</h1>
             <div className="card-container">
-                {postsDisplayed.map(post => <ImageCard key={post.id} post={post}/>)}
+                {postsDisplayed.map(post => <ImageCard key={post.id} post={post} postsDisplayed={postsDisplayed} setPostsDisplayed={setPostsDisplayed}/>)}
             </div>
             <p onClick={handleRefresh}>Refresh</p>
         </div>
