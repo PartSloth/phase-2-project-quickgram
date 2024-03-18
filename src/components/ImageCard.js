@@ -1,15 +1,9 @@
-import { useOutletContext } from "react-router-dom";
 import "./imagecard.css";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 function ImageCard({ post, postsDisplayed, setPostsDisplayed }) {
-    const [posts] = useOutletContext();
-    const [isLiked, setIsLiked] = useState(false);
+    const [isLiked, setIsLiked] = useState(post.isLiked);
     const isAccount = post.isAccount;
-
-    useEffect(() => {
-        setIsLiked(post.isLiked);
-    }, [posts])
 
     function handleClick(event) {
         setIsLiked(isLiked => !isLiked);
@@ -26,6 +20,7 @@ function ImageCard({ post, postsDisplayed, setPostsDisplayed }) {
         .then(res => res.json())
         .then(updatedPost => handleUpdatingPosts(updatedPost))
     }
+
 
     function handleUpdatingPosts(updatedPost) {
         const updatedPostsArr = [...postsDisplayed];
