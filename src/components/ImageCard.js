@@ -44,7 +44,7 @@ function ImageCard({ post, postsDisplayed, setPostsDisplayed }) {
                 <h2>{post.user}</h2>
                 <p>{post.caption} {post.tags.map(tag => `#${tag}`)}</p>
                 <p>{post.likes} likes</p>
-                {isAccount? null : 
+                {isAccount ? null : 
                 <i className="icon-heart-empty" onClick={handleClick}>{isLiked ? '♥' : '♡' }</i> 
                 }
             </div>
