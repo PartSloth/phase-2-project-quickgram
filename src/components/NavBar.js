@@ -11,6 +11,12 @@ function NavBar() {
         Home
       </NavLink>
       <NavLink
+        to ="/favorites"
+        className="nav-link"
+      >
+        Favorites
+      </NavLink>
+      <NavLink
         to="/profile"
         className="nav-link"
       >
