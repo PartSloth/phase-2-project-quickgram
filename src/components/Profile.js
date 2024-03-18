@@ -51,7 +51,15 @@ function Profile() {
             })
         })
         .then(res => res.json())
-        .then(upload => setPosts([...posts, upload]))
+        .then(upload => {
+            setPosts([...posts, upload])
+            clearForm();
+        })
+    }
+
+    function clearForm() {
+        const fields = document.querySelectorAll('input');
+        fields.forEach(field => field.value = "")
     }
 
     return(
