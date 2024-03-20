@@ -44,8 +44,10 @@ function Profile() {
             body: JSON.stringify({
                 id: posts.length + 1,
                 user: "lilijones21",
+                isAccount: false,
                 image: formData.image,
                 likes: 0,
+                isLiked: false,
                 caption: formData.caption,
                 tags: formData.tags
             })

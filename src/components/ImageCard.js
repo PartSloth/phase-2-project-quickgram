@@ -1,7 +1,9 @@
+import { useOutletContext } from "react-router-dom";
 import "./imagecard.css";
 import { useState } from "react";
 
-function ImageCard({ post, postsDisplayed, setPostsDisplayed }) {
+function ImageCard({ post }) {
+    const [postsDisplayed, setPostsDisplayed] = useOutletContext();
     const [isLiked, setIsLiked] = useState(post.isLiked);
     const isAccount = post.isAccount;
 
