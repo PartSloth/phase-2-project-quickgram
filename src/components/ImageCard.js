@@ -5,7 +5,6 @@ import { useState } from "react";
 function ImageCard({ post }) {
     const [postsDisplayed, setPostsDisplayed] = useOutletContext();
     const [isLiked, setIsLiked] = useState(post.isLiked);
-    const isAccount = post.isAccount;
 
     function handleClick(event) {
         setIsLiked(isLiked => !isLiked);
@@ -41,9 +40,7 @@ function ImageCard({ post }) {
                 <h2>{post.user}</h2>
                 <p>{post.caption} {post.tags.map(tag => `#${tag}`)}</p>
                 <p>{post.likes} likes</p>
-                {isAccount ? null : 
                 <i className="icon-heart-empty" onClick={handleClick}>{isLiked ? '♥' : '♡' }</i> 
-                }
             </div>
         </div>
     )

@@ -3,8 +3,8 @@ import ImageCard from "./ImageCard";
 import { useEffect, useState } from "react";
 
 function Profile() {
-    const [posts, setPosts] = useOutletContext();
-    const profilePosts = posts.filter(post => post.user === "lilijones21")
+    const [postsDisplayed, setPostsDisplayed] = useOutletContext();
+    const profilePosts = postsDisplayed.filter(post => post.user === "lilijones21")
     const [formData, setFormData] = useState({
         image: null,
         caption: null,
@@ -42,9 +42,8 @@ function Profile() {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
-                id: posts.length + 1,
+                id: postsDisplayed.length + 1,
                 user: "lilijones21",
-                isAccount: false,
                 image: formData.image,
                 likes: 0,
                 isLiked: false,
@@ -54,7 +53,7 @@ function Profile() {
         })
         .then(res => res.json())
         .then(upload => {
-            setPosts([...posts, upload])
+            setPostsDisplayed([...postsDisplayed, upload])
             clearForm();
         })
     }
