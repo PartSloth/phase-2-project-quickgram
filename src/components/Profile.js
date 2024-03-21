@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 function Profile() {
     const [postsDisplayed, setPostsDisplayed] = useOutletContext();
-    const profilePosts = postsDisplayed.filter(post => post.user === "lilijones21")
+    const profilePosts = postsDisplayed.filter(post => post.user === "lilijones21").sort((a , b) => a.id - b.id)
     const [formData, setFormData] = useState({
         image: null,
         caption: null,
