@@ -3,7 +3,6 @@
     {
       "id": "1",
       "user": "alexa21",
-      "isAccount": false,
       "image": "https://ciaobambino.com/wp-content/uploads/2015/02/caribbean-vacation-budget-tips.jpg",
       "likes": 968,
       "isLiked": false,
@@ -17,7 +16,6 @@
     {
       "id": "2",
       "user": "Texas Streethouse",
-      "isAccount": false,
       "image": "https://a.cdn-hotels.com/gdcs/production0/d1513/35c1c89e-408c-4449-9abe-f109068f40c0.jpg?impolicy=fcrop&w=800&h=533&q=medium",
       "likes": 30051,
       "isLiked": false,
@@ -32,7 +30,6 @@
     {
       "id": "3",
       "user": "xPogo",
-      "isAccount": false,
       "image": "https://blackstoneam.com/wp-content/uploads/2022/07/vacation_instagram_captions_puns_quotes-12.jpg",
       "likes": 1005,
       "isLiked": false,
@@ -46,7 +43,6 @@
     {
       "id": "4",
       "user": "jeneveveve",
-      "isAccount": false,
       "image": "https://coresight.com/wp-content/uploads/2023/05/Coresight-Research-Mall-640.webp",
       "likes": 20,
       "isLiked": false,
@@ -59,7 +55,6 @@
     {
       "id": "5",
       "user": "lilijones21",
-      "isAccount": true,
       "image": "https://img.freepik.com/free-photo/front-view-interior-room-design-concept_23-2148786397.jpg?t=st=1710436969~exp=1710440569~hmac=6ee4bbb44eecc7e39420b023d4e7a843bd8cdd6ee94801c4994716a35fcc595d&w=996",
       "likes": 214,
       "isLiked": false,
@@ -74,7 +69,6 @@
     {
       "id": "6",
       "user": "flowersanddemons",
-      "isAccount": false,
       "image": "https://www.killyourdarlings.com.au/wp-content/uploads/2020/07/horse-1.jpg",
       "likes": 4,
       "isLiked": false,
@@ -88,7 +82,6 @@
     {
       "id": "7",
       "user": "123maxine9102",
-      "isAccount": false,
       "image": "https://dallasarboretum.imgix.net/wp-content/uploads/2024/02/05124941/AdobeStock_202526503.jpeg?fit=crop&crop=focalpoint&fp-x=.9&fp-y=.9&fp-z=1&q=60&auto=format&w=960&h=536",
       "likes": 903,
       "isLiked": false,
@@ -102,7 +95,6 @@
     {
       "id": "8",
       "user": "baconator111",
-      "isAccount": false,
       "image": "https://www.fluentu.com/blog/english/wp-content/uploads/sites/4/2023/06/asian-woman-on-a-kayak-on-a-beautiful-island-in-summer.jpg",
       "likes": 19239,
       "isLiked": false,
@@ -117,7 +109,6 @@
     {
       "id": "9",
       "user": "flowersanddemons",
-      "isAccount": false,
       "image": "https://img.freepik.com/free-photo/meatballs-with-vegetables-tomato-sauce_1220-7420.jpg?t=st=1710437224~exp=1710440824~hmac=1b5f5101610005e63ab9975c327195bcad762d7146120b5c10d18041e881c074&w=1380",
       "likes": 191,
       "isLiked": false,
@@ -131,7 +122,6 @@
     {
       "id": "10",
       "user": "lilijones21",
-      "isAccount": true,
       "image": "https://img.freepik.com/free-photo/close-up-people-traveling-together_23-2149272140.jpg?t=st=1710437082~exp=1710440682~hmac=b7fcf81c87cd4f820b816e273e3d81abd68977efb08597e426d3901252de3219&w=1380",
       "likes": 91,
       "isLiked": false,
@@ -145,7 +135,6 @@
     {
       "id": "11",
       "user": "appliepie",
-      "isAccount": false,
       "image": "https://img.freepik.com/free-photo/close-up-cute-cat-indoors_23-2148882585.jpg?t=st=1710446611~exp=1710450211~hmac=a56dcc78fa3b0027fb305aa65680ffe843fca50a08a004baafacdb3826f09ef2&w=740",
       "likes": 809542,
       "isLiked": false,
@@ -159,7 +148,6 @@
     {
       "id": "12",
       "user": "0betty_may0",
-      "isAccount": false,
       "image": "https://img.freepik.com/free-photo/close-up-kitten-indoors_23-2150782301.jpg?t=st=1710446773~exp=1710450373~hmac=1a89e0eab62a6d03ed81edd5c661c2115b3008b3e10a7aa20e777a43713425f0&w=1380",
       "likes": 91934,
       "isLiked": false,
@@ -175,7 +163,6 @@
     {
       "id": "13",
       "user": "flora&fauna",
-      "isAccount": false,
       "image": "https://img.freepik.com/free-photo/colorful-beautiful-flowers-background-blossom-floral-bouquet-decoration-garden-flowers-plant-vertical-pattern-wallpapers-greeting-cards-postcards-design-wedding-invites_90220-1097.jpg?t=st=1710446948~exp=1710450548~hmac=773e86359208b4356ea62a738f354d6cba060e7e15ad37dbdf7392da0a1e7ebc&w=740",
       "likes": 653,
       "isLiked": false,
@@ -190,7 +177,6 @@
     {
       "id": "14",
       "user": "baby_artist21",
-      "isAccount": false,
       "image": "https://img.freepik.com/free-photo/girl-with-backpack-sunset-generative-al_169016-28612.jpg?t=st=1710447105~exp=1710450705~hmac=45a9966393482e01d9b8733eb1c2b7524ac870328087b3adb598bf4331212416&w=826",
       "likes": 1926,
       "isLiked": false,
@@ -204,7 +190,6 @@
     {
       "id": "15",
       "user": "FARMISLIFE",
-      "isAccount": false,
       "image": "https://img.freepik.com/free-photo/tractor-farm-field-sunset-backlight-warm-tones_463209-116.jpg?t=st=1710447211~exp=1710450811~hmac=04b88c8ed060d5ff9bfd0ea0f4f55c58d6abeaa5b16e5c9975e8816bc182af16&w=996",
       "likes": 232,
       "isLiked": false,
@@ -218,7 +203,6 @@
     {
       "id": "16",
       "user": "FARMISLIFE",
-      "isAccount": false,
       "image": "https://img.freepik.com/free-photo/full-shot-girl-farm_23-2148990389.jpg?t=st=1710447321~exp=1710450921~hmac=5e623505afcfbec9fbec1c61176930b4c8258371f73602af5742797d29736839&w=740",
       "likes": 2190,
       "isLiked": false,
@@ -232,7 +216,6 @@
     {
       "id": "17",
       "user": "AGGIE4L1F3",
-      "isAccount": false,
       "image": "https://img.freepik.com/free-photo/young-man-writing-notebook-study-session_23-2149285403.jpg?t=st=1710447397~exp=1710450997~hmac=7a8b0710bcf54a7d9e32fe7d65d50872e4467e2e998ac5ae0e33cf43895a2c1b&w=996",
       "likes": 1322,
       "isLiked": false,
@@ -245,7 +228,6 @@
     {
       "id": "18",
       "user": "backstr33tBOYZ",
-      "isAccount": false,
       "image": "https://img.freepik.com/free-photo/group-diverse-grads-throwing-caps-up-sky_53876-56031.jpg?t=st=1710447480~exp=1710451080~hmac=5dcf36f35ad425dc741ccb32d825037a503c9e6b90ef90474013bf4000cb4aab&w=996",
       "likes": 392,
       "isLiked": false,
@@ -259,7 +241,6 @@
     {
       "id": "19",
       "user": "ShellStudio",
-      "isAccount": false,
       "image": "https://img.freepik.com/free-vector/game-template-nature-scene_1308-82150.jpg?t=st=1710447558~exp=1710451158~hmac=d8f14603ea7817691ced20dda212aa7170c34ec169b4dd89180c698f9c51c12b&w=996",
       "likes": 13,
       "isLiked": false,
@@ -273,7 +254,6 @@
     {
       "id": "20",
       "user": "xPogo",
-      "isAccount": false,
       "image": "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "likes": 928184891,
       "isLiked": false,
@@ -287,7 +267,6 @@
     {
       "id": "21",
       "user": "xPogo",
-      "isAccount": false,
       "image": "https://images.pexels.com/photos/1906153/pexels-photo-1906153.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "likes": 123241,
       "isLiked": false,
@@ -302,7 +281,6 @@
     {
       "id": "22",
       "user": "alexa21",
-      "isAccount": false,
       "image": "https://images.pexels.com/photos/1721932/pexels-photo-1721932.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "likes": 9283,
       "isLiked": false,
@@ -316,7 +294,6 @@
     {
       "id": "23",
       "user": "xPogo",
-      "isAccount": false,
       "image": "https://images.pexels.com/photos/920220/pexels-photo-920220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "likes": 233134,
       "isLiked": false,
@@ -330,7 +307,6 @@
     {
       "id": "24",
       "user": "pettycure",
-      "isAccount": false,
       "image": "https://images.pexels.com/photos/704815/pexels-photo-704815.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "likes": 9284786,
       "isLiked": false,
@@ -345,7 +321,6 @@
     {
       "id": "25",
       "user": "pettycure",
-      "isAccount": false,
       "image": "https://images.pexels.com/photos/1164339/pexels-photo-1164339.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "likes": 8382,
       "isLiked": false,
@@ -360,7 +335,6 @@
     {
       "id": "26",
       "user": "mAnwithAcAm",
-      "isAccount": false,
       "image": "https://images.pexels.com/photos/1262302/pexels-photo-1262302.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "likes": 2885,
       "isLiked": false,
@@ -375,7 +349,6 @@
     {
       "id": "27",
       "user": "AGGIE4L1F3",
-      "isAccount": false,
       "image": "https://images.pexels.com/photos/11405382/pexels-photo-11405382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "likes": 672,
       "isLiked": false,
@@ -390,7 +363,6 @@
     {
       "id": "28",
       "user": "cheesy__QUEEN",
-      "isAccount": false,
       "image": "https://images.pexels.com/photos/6004202/pexels-photo-6004202.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "likes": 60002,
       "isLiked": false,
@@ -404,7 +376,6 @@
     {
       "id": "29",
       "user": "backstr33tBOYZ",
-      "isAccount": false,
       "image": "https://images.pexels.com/photos/1439951/pexels-photo-1439951.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "likes": 22,
       "isLiked": false,
@@ -417,7 +388,6 @@
     {
       "id": "30",
       "user": "AGGIE4L1F3",
-      "isAccount": false,
       "image": "https://images.pexels.com/photos/8602444/pexels-photo-8602444.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "likes": 82821,
       "isLiked": false,

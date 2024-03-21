@@ -22,12 +22,12 @@ function ImageCard({ post }) {
         .then(updatedPost => handleUpdatingPosts(updatedPost))
     }
 
-
     function handleUpdatingPosts(updatedPost) {
         const updatedPostsArr = [...postsDisplayed];
         updatedPostsArr.filter(post => {
             if(post.id === updatedPost.id) {
                 post.likes = updatedPost.likes;
+                post.isLiked = updatedPost.isLiked;
             }
             setPostsDisplayed(updatedPostsArr);
         })
