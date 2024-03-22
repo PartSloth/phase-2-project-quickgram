@@ -6,6 +6,7 @@ function ImageCard({ post }) {
     const [postsDisplayed, setPostsDisplayed] = useOutletContext();
     const [isLiked, setIsLiked] = useState(post.isLiked);
 
+    //Like button
     function handleClick(event) {
         setIsLiked(isLiked => !isLiked);
         fetch(`http://localhost:3000/posts/${post.id}`, {
@@ -33,11 +34,29 @@ function ImageCard({ post }) {
         })
     }
 
+    //Trash button
+    function handleTrashButton(event) {
+        fetch(`http://localhost:3000/posts/${post.id}`, {
+            method: 'DELETE'
+        })
+        .then(res => res.json())
+        .then(deletedPost => {
+            const updatedPostsArr = postsDisplayed.filter(post => post.id !== deletedPost.id);
+            setPostsDisplayed(updatedPostsArr);
+        })
+    }
+
     return (
         <div className="card">
             <img src={post.image} alt=""/>
             <div className="card-content">
                 <h2>{post.user}</h2>
+                {post.user === "lilijones21" ?
+                    <button type="button" className="btn btn-default btn-sm" onClick={handleTrashButton}>
+                        <span className="glyphicon glyphicon-trash"></span> Trash 
+                    </button>
+                    : null
+                }
                 <p>{post.caption} {post.tags.map(tag => `#${tag}`)}</p>
                 <p>{post.likes} likes</p>
                 <i className="icon-heart-empty" onClick={handleClick}>{isLiked ? '♥' : '♡' }</i> 

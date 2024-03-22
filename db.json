@@ -110,8 +110,8 @@
       "id": "9",
       "user": "flowersanddemons",
       "image": "https://img.freepik.com/free-photo/meatballs-with-vegetables-tomato-sauce_1220-7420.jpg?t=st=1710437224~exp=1710440824~hmac=1b5f5101610005e63ab9975c327195bcad762d7146120b5c10d18041e881c074&w=1380",
-      "likes": 191,
-      "isLiked": false,
+      "likes": 192,
+      "isLiked": true,
       "caption": "eat to make your heart happy xoxo",
       "tags": [
         "food",
@@ -217,8 +217,8 @@
       "id": "17",
       "user": "AGGIE4L1F3",
       "image": "https://img.freepik.com/free-photo/young-man-writing-notebook-study-session_23-2149285403.jpg?t=st=1710447397~exp=1710450997~hmac=7a8b0710bcf54a7d9e32fe7d65d50872e4467e2e998ac5ae0e33cf43895a2c1b&w=996",
-      "likes": 1322,
-      "isLiked": false,
+      "likes": 1323,
+      "isLiked": true,
       "caption": "Just me and my STUDY PARDNER",
       "tags": [
         "study",
@@ -242,8 +242,8 @@
       "id": "19",
       "user": "ShellStudio",
       "image": "https://img.freepik.com/free-vector/game-template-nature-scene_1308-82150.jpg?t=st=1710447558~exp=1710451158~hmac=d8f14603ea7817691ced20dda212aa7170c34ec169b4dd89180c698f9c51c12b&w=996",
-      "likes": 13,
-      "isLiked": false,
+      "likes": 14,
+      "isLiked": true,
       "caption": "working on a new platformer",
       "tags": [
         "gaming",
