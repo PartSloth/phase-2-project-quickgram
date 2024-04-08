@@ -6,17 +6,17 @@ function Favorites() {
     const [postsDisplayed] = useOutletContext();
 
     return(
-        <>
-        <h1>Favorites</h1>
-            <div className="card-container">
-                {postsDisplayed.map(post => {
-                if(post.isLiked === true) {
-                        return <ImageCard key={post.id} post={post} />
-                }
-                return null;
-                })}
-            </div>
-        </>
+        <div className="favorites">
+            <h1>Your Favorites</h1>
+                <div className="card-container">
+                    {postsDisplayed.map(post => {
+                    if(post.isLiked === true) {
+                            return <ImageCard key={post.id} post={post} />
+                    }
+                    return null;
+                    })}
+                </div>
+        </div>
     )
 }
 
