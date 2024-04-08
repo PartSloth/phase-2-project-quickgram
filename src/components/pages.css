@@ -1,0 +1,15 @@
+/* Home Style */
+.card-container {
+    margin: 25px;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home button {
+    max-width: 100px;
+    margin: 0px 0px 40px 0px;
+}
