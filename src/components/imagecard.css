@@ -16,4 +16,41 @@ img {
     overflow: hidden;
     box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
     margin: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 247, 237);
+}
+
+.card-content {
+    font-family: "Poppins";
+    flex-grow: 1;
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name {
+    display: flex;
+    height: 65px;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.name button {
+    max-height: 25px;
+    background-color: #b0f3d0;
+    border-color: #549671;
+    border-radius: 7px;
+}
+
+.like-section {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.tags {
+    color: rgb(93, 197, 238);
 }

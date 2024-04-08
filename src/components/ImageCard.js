@@ -50,16 +50,26 @@ function ImageCard({ post }) {
         <div className="card">
             <img src={post.image} alt=""/>
             <div className="card-content">
-                <h2>{post.user}</h2>
-                {post.user === "lilijones21" ?
-                    <button type="button" className="btn btn-default btn-sm" onClick={handleTrashButton}>
-                        <span className="glyphicon glyphicon-trash"></span> Trash 
-                    </button>
-                    : null
-                }
-                <p>{post.caption} {post.tags.map(tag => `#${tag}`)}</p>
-                <p>{post.likes} likes</p>
-                <i className="icon-heart-empty" onClick={handleClick}>{isLiked ? '♥' : '♡' }</i> 
+
+                <div className="content-section">
+                    <div className="name">
+                        <h2>{post.user}</h2>
+                        {post.user === "lilijones21" ?
+                            <button type="button" className="btn btn-default btn-sm" onClick={handleTrashButton}>
+                                <span className="glyphicon glyphicon-trash"></span> Delete 
+                            </button>
+                            : null
+                        }
+                    </div>
+                    <p>{post.caption}</p>
+                    <p className="tags">{post.tags.map(tag => `#${tag} `)}</p>
+                </div>
+
+                <div className="like-section">
+                    <i className="icon-heart-empty" onClick={handleClick}>{isLiked ? '♥' : '♡' }</i> 
+                    <p>{post.likes} likes</p>
+                </div>
+
             </div>
         </div>
     )
