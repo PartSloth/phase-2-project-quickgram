@@ -22,7 +22,7 @@ img {
 }
 
 .card-content {
-    font-family: "Poppins";
+    font-family: "Poppins", 'Segoe UI';
     flex-grow: 1;
     margin: 0px 10px;
     display: flex;
