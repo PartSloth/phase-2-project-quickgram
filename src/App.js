@@ -1,6 +1,7 @@
 import NavBar from './components/NavBar';
 import { Outlet } from "react-router-dom";
 import { useEffect, useState } from 'react';
+import "./app.css";
 
 function App() {
   const [posts, setPosts] = useState([]);
@@ -24,6 +25,10 @@ function App() {
     
   return (
     <>
+      <div className="header">
+        <h1>QuickGram</h1>
+        <img className="hide-bg" src="https://t4.ftcdn.net/jpg/04/96/47/13/360_F_496471319_DbtjoUvKqyy2e9OfgBnK5mm2AXhKpa9m.jpg"/>
+      </div>
       <header>
         <NavBar />
       </header>
