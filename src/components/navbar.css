@@ -1,0 +1,22 @@
+nav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #84cca4;
+}
+
+.active {
+    background-color: #68b188;
+}
+
+.nav-link {
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: #549671;
+}
