@@ -1,3 +1,7 @@
+* {
+    color: rgb(70, 70, 70);
+}
+
 /* Home Style */
 .card-container {
     margin: 25px;
@@ -22,4 +26,44 @@
     margin-left: 25px;
     font-family: "Poppins", 'Segoe UI';
     color: rgb(230, 167, 90);
+}
+
+/* Profile Style */
+.profile {
+    font-family: "Poppins", 'Segoe UI';
+    margin: 0px 250px;
+}
+
+.profile h1 {
+    color: rgb(230, 167, 90);
+}
+
+.profile-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.pic-caption img {
+    border-radius: 200px;
+    max-height: 200px;
+    max-width: 200px;
+    border: 2px solid #84cca4;
+}
+
+.post-header {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.post-header button {
+    max-height: 30px;
+}
+
+.form-container input {
+    margin-right: 8px;
+}
+
+.form-container button {
+    margin: 3px;
 }

@@ -64,13 +64,19 @@ function Profile() {
     }
 
     return(
-        <div>
+        <div className="profile">
             <h1>lilijones21</h1>
-            <img src="https://img.freepik.com/free-photo/pleasant-looking-caucasian-female-with-long-hair-wearing-yellow-casual-shirt-having-good-mood-looking-happily-camera_176532-11558.jpg?t=st=1710432128~exp=1710435728~hmac=0a436c3c73066f6c87d124b3fe1e5f44a53d38b78fae148ab5133594f2216797&w=1380" alt="Lisa Jones"/>
-            <h3>Lisa Jones</h3>
-            <p>traveler and foodie | food review youtuber | dog walker</p>
-            <h2>Posts</h2>
-            <button className="open-button" onClick={handleOpenForm}>New Post</button>
+            <div className="profile-header">
+                <div className="pic-caption">
+                    <img src="https://img.freepik.com/free-photo/pleasant-looking-caucasian-female-with-long-hair-wearing-yellow-casual-shirt-having-good-mood-looking-happily-camera_176532-11558.jpg?t=st=1710432128~exp=1710435728~hmac=0a436c3c73066f6c87d124b3fe1e5f44a53d38b78fae148ab5133594f2216797&w=1380" alt="Lisa Jones"/>
+                    <h3>Lisa Jones</h3>
+                    <p>traveler and foodie | food review youtuber | dog walker</p>
+                </div>
+                <div className="post-header">
+                    <h2>Posts</h2>
+                    <button className="open-button" onClick={handleOpenForm}>New Post</button>
+                </div>
+            </div>
 
             <div className="form-popup" id="postForm" onSubmit={handleUploadSubmit}>
                 <form className="form-container">
