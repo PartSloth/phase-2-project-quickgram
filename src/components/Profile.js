@@ -68,9 +68,16 @@ function Profile() {
             <h1>lilijones21</h1>
             <div className="profile-header">
                 <div className="pic-caption">
-                    <img src="https://img.freepik.com/free-photo/pleasant-looking-caucasian-female-with-long-hair-wearing-yellow-casual-shirt-having-good-mood-looking-happily-camera_176532-11558.jpg?t=st=1710432128~exp=1710435728~hmac=0a436c3c73066f6c87d124b3fe1e5f44a53d38b78fae148ab5133594f2216797&w=1380" alt="Lisa Jones"/>
-                    <h3>Lisa Jones</h3>
-                    <p>traveler and foodie | food review youtuber | dog walker</p>
+                    <div className="column-1">
+                        <img src="https://img.freepik.com/free-photo/pleasant-looking-caucasian-female-with-long-hair-wearing-yellow-casual-shirt-having-good-mood-looking-happily-camera_176532-11558.jpg?t=st=1710432128~exp=1710435728~hmac=0a436c3c73066f6c87d124b3fe1e5f44a53d38b78fae148ab5133594f2216797&w=1380" alt="Lisa Jones"/>
+                        <h3>Lisa Jones</h3>
+                        <p>traveler and foodie | food review youtuber | dog walker</p>
+                    </div>
+                    <div className="column-2">
+                        <p>{profilePosts.length} posts</p>
+                        <p>27 followers</p>
+                        <p>187 following</p>
+                    </div>
                 </div>
                 <div className="post-header">
                     <h2>Posts</h2>

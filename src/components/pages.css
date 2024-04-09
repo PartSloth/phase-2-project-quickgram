@@ -31,16 +31,47 @@
 /* Profile Style */
 .profile {
     font-family: "Poppins", 'Segoe UI';
-    margin: 0px 250px;
+    margin-top: 25px;
 }
 
 .profile h1 {
     color: rgb(230, 167, 90);
+    margin: 0px 500px;
 }
 
 .profile-header {
     display: flex;
     flex-direction: column;
+    margin: 10px 500px;
+}
+
+.pic-caption {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.column-1 {
+    flex-grow: 1;
+}
+
+.column-1 h3 {
+    margin: 15px 0px 0px 0px;
+}
+
+.column-1 p {
+    margin: 0px;
+}
+
+.column-2 {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 55px;
+    font-size: larger;
+    margin-bottom: 85px;
+    font-weight: 600;
 }
 
 .pic-caption img {
@@ -58,6 +89,10 @@
 
 .post-header button {
     max-height: 30px;
+}
+
+.form-popup {
+    margin: 0px 500px;
 }
 
 .form-container input {
