@@ -17,8 +17,8 @@
       "id": "2",
       "user": "Texas Streethouse",
       "image": "https://a.cdn-hotels.com/gdcs/production0/d1513/35c1c89e-408c-4449-9abe-f109068f40c0.jpg?impolicy=fcrop&w=800&h=533&q=medium",
-      "likes": 30051,
-      "isLiked": false,
+      "likes": 30052,
+      "isLiked": true,
       "caption": "Give a warm welcome to our new double-stacked classic-style burger! Available for a limited time.",
       "tags": [
         "food",
@@ -422,8 +422,7 @@
         "animals",
         "photography"
       ]
-    }
-    ,
+    },
     {
       "id": "33",
       "user": "backstr33tBOYZ",
@@ -437,8 +436,7 @@
         "cat",
         "selfie"
       ]
-    }
-    ,
+    },
     {
       "id": "34",
       "user": "basic_rat",
