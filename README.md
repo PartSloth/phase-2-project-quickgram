@@ -32,8 +32,8 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ## Usage
-
-tbd
+Demo video [here](https://www.youtube.com/watch?v=vUGYk6Isfhc&t=1s).
+![Preview youtube video image](https://i.postimg.cc/hGGRPxVz/image.png)
 
 ## Roadmap
 ![Static Badge](https://img.shields.io/badge/04%2F09%2F24-blue)
@@ -47,14 +47,14 @@ Future implementations:
 
 ## Image Sources
 
-[Freepik](https://www.freepik.com)
-[Pexels](https://www.pexels.com)
-[Hotels](https://www.pexels.com)
-[blogs.colum.edu](blogs.colum.edu)
-[Dallas Arboretum](https://www.dallasarboretum.org)
-[Reader's Digest](https://www.rd.com)
-[Best Life](https://bestlifeonline.com/smarter-living/)
-[Pinterest](https://www.pinterest.com)
+[Freepik](https://www.freepik.com)\
+[Pexels](https://www.pexels.com)\
+[Hotels](https://www.pexels.com)\
+[blogs.colum.edu](blogs.colum.edu)\
+[Dallas Arboretum](https://www.dallasarboretum.org)\
+[Reader's Digest](https://www.rd.com)\
+[Best Life](https://bestlifeonline.com/smarter-living/)\
+[Pinterest](https://www.pinterest.com)\
 [Wallpapers](https://wallpapers.com)
 
 ## License
