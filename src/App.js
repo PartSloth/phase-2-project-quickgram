@@ -4,17 +4,13 @@ import { useEffect, useState } from 'react';
 import "./App.css";
 
 function App() {
-  const [posts, setPosts] = useState([]);
   const [postsDisplayed, setPostsDisplayed] = useState([]);
-
-  console.log(postsDisplayed)
 
   useEffect(() => {
     fetch("http://localhost:3000/posts")
     .then(res => res.json())
     .then(posts => {
-        setPosts(posts);
-        initialDisplayedCards([...posts])
+        initialDisplayedCards(posts)
     })
   }, []);
 
