@@ -5,11 +5,14 @@ import { useEffect, useState } from "react";
 function Profile() {
     const [postsDisplayed, setPostsDisplayed] = useOutletContext();
     const profilePosts = postsDisplayed.filter(post => post.user === "lilijones21").sort((a , b) => a.id - b.id)
-    const [formData, setFormData] = useState({
-        image: null,
-        caption: null,
-        tags: null,
-    })
+    const [image, setImage] = useState("");
+    const [caption, setCaption] = useState("");
+    const [tags, setTags] = useState("");
+    // const [formData, setFormData] = useState({
+    //     image: null,
+    //     caption: null,
+    //     tags: null,
+    // })
 
     //pop-up form
     useEffect(() => {
@@ -30,8 +33,12 @@ function Profile() {
         let input = event.target.value;
         if(field === "tags") {
             input = input.split(' ');
+            setTags(input)
+        } else if(field === "caption") {
+            setCaption(input);
+        } else {
+            setImage(input)
         }
-        setFormData({...formData, [field]: input})
     }
 
     function handleUploadSubmit(event) {
@@ -44,11 +51,11 @@ function Profile() {
             body: JSON.stringify({
                 id: postsDisplayed.length + 1,
                 user: "lilijones21",
-                image: formData.image,
+                image: image,
                 likes: 0,
                 isLiked: false,
-                caption: formData.caption,
-                tags: formData.tags
+                caption: caption,
+                tags: tags
             })
         })
         .then(res => res.json())
@@ -59,8 +66,9 @@ function Profile() {
     }
 
     function clearForm() {
-        const fields = document.querySelectorAll('input');
-        fields.forEach(field => field.value = "")
+        setImage("");
+        setCaption("");
+        setTags("");
     }
 
     return(
@@ -88,13 +96,13 @@ function Profile() {
             <div className="form-popup" id="postForm" onSubmit={handleUploadSubmit}>
                 <form className="form-container">
                     <label htmlFor="image">Upload Image </label>
-                    <input type="text" placeholder="Image Link" name="image" onChange={handleFormInput} required/>
+                    <input type="text" placeholder="Image Link" name="image" value={image} onChange={handleFormInput} required/>
 
                     <label htmlFor="caption">Edit Caption </label>
-                    <input type="text" placeholder="Caption Description" name="caption" maxLength="300" onChange={handleFormInput} required/>
+                    <input type="text" placeholder="Caption Description" name="caption" maxLength="300" value={caption} onChange={handleFormInput} required/>
 
                     <label htmlFor="tags">Tags </label>
-                    <input type="text" placeholder="Separate by spaces" name="tags" maxLength="100" onChange={handleFormInput} required/>
+                    <input type="text" placeholder="Separate by spaces" name="tags" maxLength="100" value={tags} onChange={handleFormInput} required/>
 
                     <button type="submit" className="btn">Upload</button>
                     <button type="button" className="btn cancel" onClick={handleCloseForm}>Cancel</button>
