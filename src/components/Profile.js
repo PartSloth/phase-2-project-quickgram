@@ -8,11 +8,6 @@ function Profile() {
     const [image, setImage] = useState("");
     const [caption, setCaption] = useState("");
     const [tags, setTags] = useState("");
-    // const [formData, setFormData] = useState({
-    //     image: null,
-    //     caption: null,
-    //     tags: null,
-    // })
 
     //pop-up form
     useEffect(() => {
@@ -49,7 +44,6 @@ function Profile() {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
-                id: postsDisplayed.length + 1,
                 user: "lilijones21",
                 image: image,
                 likes: 0,
